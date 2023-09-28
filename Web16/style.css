@@ -1,0 +1,81 @@
+body
+{
+    color: azure;
+    font-family: verdana;
+    font-size: 20px;
+    background-color: blue;
+    text-align: center;
+}
+#img1
+{
+    border-radius: 50%;
+    width: 220px;
+    height: 250px;
+}
+#img2
+{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+#img3
+{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 150px;
+}
+#img4
+{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 150px;
+}
+#img5
+{
+    filter: drop-shadow(0 0 5px red);
+    width: 150px;
+}
+#img6
+{
+    border: 2px dashed green;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+#img7
+{
+    border: 3px solid purple;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#img8
+{
+    transform: rotate(45deg);
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+#img9
+{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    border: 2px solid blue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+#img10
+{
+    filter: hue-rotate(90deg) saturate(200%);
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}

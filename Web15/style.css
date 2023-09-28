@@ -1,0 +1,67 @@
+body
+{
+    color: blue;
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+#anios
+{
+    border: blue 3px solid;
+    width: 10%;
+    border-spacing: 3px;
+    float: left;
+}
+
+li
+{
+    text-align: left;
+    font-size: 15px;
+    color: blue;
+    padding: 10px;
+}
+
+table
+{
+    border: blue 9px solid;
+    border-spacing: 3px;
+    width: 80%;
+}
+
+th
+{
+    background-color: lightblue;
+    padding: 15px;
+}
+
+td
+{
+    text-align: center;
+    padding: 15px;
+}
+
+tbody
+{
+    background-color: lightgreen;
+}
+
+.mes
+{
+    text-align: center;
+    background: blue;
+    font-size: 30px;
+    color: white;
+}
+
+.diaExtra
+{
+    text-align: center;
+    background: lightcyan;
+    font-size: 15px;
+    color: blue;
+}
+.diaConcluido
+{
+    background: white url(Palomita.png) no-repeat right top;
+}

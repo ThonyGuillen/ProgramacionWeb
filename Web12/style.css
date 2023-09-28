@@ -1,0 +1,124 @@
+
+#blue
+{
+    color: blue;
+    font-size: 12;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#red
+{
+    color: red;
+    font-size: 12;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-align: justify
+}
+#fuchsia
+{
+    color: fuchsia;
+    font-size: 12;
+    font-family: Arial; 
+    font-style: normal;
+    text-align: right;
+}
+#yellow
+{
+    color: yellow;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align:justify
+}
+#lime
+{
+    color: lime;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align: left;
+
+}
+#aqua
+{
+    color: aqua;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align: center;
+}
+#navy
+{
+    color: navy;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align: left;	
+}
+#purple
+{
+    color: purple;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align: justify
+}
+#purple
+{
+    color: purple;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align: right;
+}
+#maroon
+{
+    color: maroon;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align: center;
+}
+#olive
+{
+    color: olive;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align: left;
+}
+#green
+{
+    color: green;
+    font-size: 12;
+    font-style: normal;
+    text-align: justify
+}
+#teal
+{
+    color: teal;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align: right;
+}
+#gray
+{
+    color: gray;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align: center;
+}
+#silver
+{
+    color: silver;
+    font-size: 12;
+    font-family: Arial;
+    font-style: normal;
+    text-align: left;	
+}
+

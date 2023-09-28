@@ -1,0 +1,54 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Anthony Guillen Martinez</title>
+    </head>
+    <body>
+        <form id="style" method="post" >
+            <p> <id="formato1"> Alumno: <input type="text" name="alumno" autofocus></p>
+            <p>Apellidos: <input type="text" name="apellidos" size="40" maxlength="4" placeholder="Ej. Guillen Martinez"></p>
+            <p>Edad: <input type="number" name="edad" size="20" maxlength="2"></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+        <br>
+        <form id="style" method="post" > 
+            <p> Selecciona una carrera: <input list="lista">
+                <datalist id="lista">
+                    <option value="Ing. Sistemas Computacionales">
+                    <option value="Ing. Informatica">
+                    <option value="Ing. Electronica">
+                    <option value="Ing. Mecatronica">
+                </datalist>
+            </p>
+        </form>
+        <br>
+        <p id="style">
+        Selecciona una carrera: 
+            <select name="carrera">
+                <option value="ISC">Ing. Sistemas Computacionales</option>
+                <option value="II">Ing. Informatica</option>
+                <option value="IE">Ing. Electronica</option>
+                <option value="IM">Ing. Mecatronica</option>
+            </select>
+        </p>
+        <br>
+        <p id="style">
+            <input type="checkbox" value="Aceptar" name="condiciones"> Acepto la inscribirme a mi carrera
+            <br><br>
+            Genero: Hombre<input type="radio" name="genero" value="Hombre"> Mujer<input type="radio" name="genero" value="Mujer">
+            <br><br>
+            Semestre: <input type="number" name="semestre" sted="2" min="1" max="10" placeholder="1-11">
+            <br><br>
+            Fecha de hoy: <input type="date" name="fecha">
+            <br><br>
+            Registro de hora: <input type="time" name="hora">
+            <br><br>
+            Que color te gusta: <input type="color" name="color">
+            <br><br>
+            Adjunta tu documento: <input type="file" name="archivo" accept=".doc, .docx, .pdf">
+            <br><br>
+            Escribe tu opinión: <textarea name="opinion" rows="4" cols="40" minlength="5" maxlength="100">Escribe tu opinión</textarea>
+        </p>
+    </body>
+</html>
