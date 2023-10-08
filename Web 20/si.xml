@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Registro>
+    <nss>12345678901</nss>
+    <curp>GUML010101HDFNNS09</curp>
+    <nombre>Anthony</nombre>
+    <apellido1>Guillen</apellido1>
+    <apellido2>Martinez</apellido2>
+    <genero>M</genero>
+    <fecha_nacimiento>2001-01-01</fecha_nacimiento>
+    <lugar_nacimiento>Tijuana</lugar_nacimiento>
+</Registro>

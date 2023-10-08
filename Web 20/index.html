@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>Anthony Guillen Martinez</title>
+		<link href="styles.css" type="text/css" rel="stylesheet"></link>
+		
+
+		<table align="center">
+			<tr>
+				<td><img id="img1" src="logo_ITT.png"></td>
+				<td><h1>Instituto tecnologico de Tijuana</h1></td>
+			</tr>
+		</table>
+	</head>
+	<body><br>
+		<table border="1" align="center">
+			<tr>
+				<td >No Control: </td>
+				<td>20210575</td>
+			</tr>
+				<td>Nombre: </td>
+				<td>Anthony Guillen Martinez</td>
+			<tr>
+				<td>Carrera: </td>
+				<td>Ingenieria en Sistemas Computacionales</td>
+			</tr>
+				<td>Materia: </td>
+				<td>Programacion Web</td>
+			</tr>
+		</table>
+		<br>
+		<form action="#" target="" method="get" name="Datos">
+
+			<label for="nss">NSS</label>
+			<input type="text" name="nss" id="nss" placeholder="Escribe tu numero de seguridad social" maxlength="20" required/><br>
+
+			<label for="curp">CURP</label>
+			<input type="text" name="curp" id="curp" placeholder="Escribe tu CURP" required/><br>
+
+			<label for="nombre">Nombre(s)</label>
+			<input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required/><br>
+
+			<label for="apellido1">Primer Apellido</label>
+			<input type="text" name="apellido1" id="apellido1" placeholder="Escribe tu primer apellido" required/><br>
+
+			<label for="apellido2">Segundo Apellido</label>
+			<input type="text" name="apellido2" id="apellido2" placeholder="Escribe tu segundo apellido" required/><br>
+
+			<label form="genero">Genero</label>
+			<select name="genero" id="genero" required>
+				<option value="">Selecciona una opcion</option>
+				<option value="M">Masculino</option>
+				<option value="F">Femenino</option>
+				<option value="O">Otro</option>
+			</select><br>
+
+			<label for="fecha_nacimiento">Fecha de Nacimiento</label>
+			<input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required/><br>
+
+			<label for="lugar_nacimiento">Lugar de Nacimiento</label>
+			<input type="text" name="lugar_nacimiento" id="lugar_nacimiento" placeholder="Escribe tu lugar de nacimiento" required/><br>
+
+			<input type="submit" name="nuevo_registro" value="Nuevo Registro"/>
+			<input type="submit" name="enviar_registro" value="Enviar Registro"/>
+			<input type="reset" name="cancelar" value="Cancelar"/>
+		</form>
+	</body>
+</html>
