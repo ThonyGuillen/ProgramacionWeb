@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ims>
+    <nombre>Anthony Guillen Martinez</nombre>
+    <curp>GUMA001117HBCLRNA6</curp>
+    <RFC>GUMA001117VB1</RFC>
+    <fechanacimiento>17/11/2000</fechanacimiento>
+    <lugarnacimiento>Tijuana</lugarnacimiento>
+    <NSS>248965324895</NSS>
+
+    <vialidad>Silverio Aleman, Lopez Leyva</vialidad>
+    <numerocasa>8</numerocasa>
+    <asentamiento>Buena vista</asentamiento>
+    <municipio>Tijuana</municipio>
+    <estado>Baja California</estado>
+    <codigopostal>22115</codigopostal>
+
+    <correo1>anthony.guilenmtz11@gmail.com</correo1>
+    <correo2>anthony.guilenmtz12@gmail.com</correo2>
+    <correo3>anthony.guilenmtz13@gmail.com</correo3>
+</Ims>

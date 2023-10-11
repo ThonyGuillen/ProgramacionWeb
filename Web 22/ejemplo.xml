@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Doctor>
+    <Hospital_Cod>18</Hospital_Cod>
+    <Nombre>General</Nombre>
+    <Direccion>Atocha s/n</Direccion>
+    <Telefono>595-3111</Telefono>
+    <Num_Camas>987</Num_Camas>
+</Doctor>
