@@ -58,40 +58,27 @@
             </tr>
         </table>  
         <br><br>
-        <form name="formulario">
-            Introduce un Numero: <input type="text" id="num1"> <br><br>
-            Introduce otro Numero: <input type="text" id="num2"> <br><br>
-            
-    
-            <input type="button" onclick="FuncionSuma()" value="Sumar"> <br><br>
-            El Resultado de la Suma es: <input type="text" id="sumando"> <br> <br>
-            El Resultado de la Suma es: <label id ="rsuma"> Resultado </label> <br> <br>
-            
-            <input type="button" onclick="FuncionClear()" value="Nueva Operacion">
+        <form name="suma">
+            <font face="Arial" size="5" Color=green>
+                <p align=left>    
+                    <b>Ingrese un numero: <input type="number" name="num1"></b><br>
+                    <b>Ingrese otro numero: <input type="number" name="num2"></b>
+                </p>
+            </font>
+            <p align=left><input type="button" value="Sumar"><br><br>
+            El resultado es: <input type="text" name="resultado"></p>
         </form>
-    
-        <script language = "javascript">
-            function FuncionSuma()
-            {
-                var x, y, suma;
-    
-                x = document.getElementById("num1").value;
-                y = document.getElementById("num2").value;
-    
-                suma=parseFloat(x)+parseFloat(y);
-    
-                document.getElementById("sumando").value = suma;
-                document.getElementById("rsuma").innerHTML = suma;
-            }
-    
-            function FuncionClear()
-            {
-                document.getElementById("num1").value="";
-                document.getElementById("num2").value=" ";
-                document.getElementById("Sumando").value="";
-                var text = "Resultado";
-                document.getElementById("rsuma").innerHTML = text;
-            }
-        </script>
-    </body>
+        <br><br>
+        <form name="resta">
+            <font face="Arial" size="5" Color=red>
+                <p align=left>    
+                    <b>Ingrese un numero: <input type="number" name="num1"></b><br>
+                    <b>Ingrese otro numero: <input type="number" name="num2"></b>
+                </p>
+            </font>
+            <p align=left><input type="button" value="Restar"><br><br>
+            El resultado es: <input type="text" name="resultado"></p>
+        </form>
+    </body> 
 </html>
+
